@@ -1,0 +1,18 @@
+{
+  "name": "echo-request",
+  "version": "1.0.0",
+  "description": "A simple server that echo requests.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=dev nodemon index.js"
+  },
+  "author": "rainchen",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "cross-env": "^7.0.3",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
