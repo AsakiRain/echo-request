@@ -24,7 +24,7 @@ app.use((req, res, next) => {
   );
   res.setHeader(
     "Access-Control-Allow-Headers",
-    "Origin, X-Requested-With, Content-Type, Accept, If-Modified-Since, authorization"
+    "Origin, X-Requested-With, Content-Type, Accept, If-Modified-Since, Authorization"
   );
   next();
 });

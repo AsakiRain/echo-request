@@ -4,15 +4,16 @@
   "description": "A simple server that echo requests.",
   "main": "index.js",
   "scripts": {
-    "dev": "cross-env NODE_ENV=dev nodemon index.js"
+    "dev": "cross-env HOST=:: PORT=12870 nodemon index.js",
+    "start": "cross-env HOST=:: PORT=12870 node index.js"
   },
   "author": "rainchen",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.20.0",
+    "body-parser": "^1.20.2",
     "cookie-parser": "^1.4.6",
     "cross-env": "^7.0.3",
-    "express": "^4.18.1",
-    "nodemon": "^2.0.19"
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
   }
 }
